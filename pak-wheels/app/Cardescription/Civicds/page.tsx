@@ -25,7 +25,7 @@ export default function Civicds(){
             <p className="font-bold">Avg</p><p>13 KM per ltr</p><p className="font-bold">Transmission</p><p>Automatic</p><p className="font-bold">Fuel Type</p><p>High Octane</p>
         </div>
         <div>
-        <p className="flex justify-center text-lg text-green-700 mt-10 font-semibold">PKR 50'00'000</p>
+        <p className="flex justify-center text-lg text-green-700 mt-10 font-semibold">PKR 50 00 000</p>
             <p className="flex justify-center my-5"><button className=" bg-blue-700 text-white p-2 rounded-sm  " >Make Payment</button></p>
         </div>
 
