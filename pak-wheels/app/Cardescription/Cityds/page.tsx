@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 export default function Cityds(){
     return(
         <main className="min-h-screen">
             <p className=" flex justify-center font-bold text-xl underline my-10 ">New Honda City 2024 Price in Pakistan, Images, Reviews and Specs  </p>
-            <div className="flex justify-center"><img src="/citty.jpg" alt="New Honda City" /></div>
+            <div className="flex justify-center"><Image src="/citty.jpg" alt="New Honda City" /></div>
 
             <div className="flex justify-center space-x-4 my-10">
             <button className="p-2 bg-blue-700 text-white rounded-sm">Book a Test Drive</button>

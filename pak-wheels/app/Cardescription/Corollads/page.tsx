@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 export default function Corollads(){
     return(
         <main className="min-h-screen">
             <p className=" flex justify-center font-bold text-xl underline my-10 ">Toyota Corolla 2024 Price in Pakistan, Images, Reviews and Specs  </p>
-            <div className="flex justify-center"><img src="/Corolla.jpg" alt="New Toyota Corolla" /></div>
+            <div className="flex justify-center"><Image src="/Corolla.jpg" alt="New Toyota Corolla" /></div>
 
             <div className="flex justify-center space-x-4 my-10">
             <button className="p-2 bg-blue-700 text-white rounded-sm">Book a Test Drive</button>

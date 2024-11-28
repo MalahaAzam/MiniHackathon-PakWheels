@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 export default function City(){
     return(
         <main className="min-h-screen">
             <p className=" flex justify-center font-bold text-xl underline my-10 ">Honda City 2024 Price in Pakistan, Images, Reviews and Specs  </p>
-            <div className="flex justify-center"><img src="/citty.jpg" alt="New Honda City" /></div>
+            <div className="flex justify-center"><Image src="/citty.jpg" alt="New Honda City" /></div>
             <p className="flex text-center my-10 mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus fugiat omnis maxime unde laborum ut consequuntur assumenda porro vitae! Rerum molestiae inventore laudantium? Ea est dolor velit eum placeat.
             Eum minima dolore voluptatum adipisci? Error qui excepturi commodi at, vero voluptatem tempore autem blanditiis eaque obcaecati sequi velit! Fugit qui saepe assumenda, eveniet atque neque temporibus vel suscipit similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae obcaecati eaque voluptas dolorum vel modi saepe, quasi nam numquam mollitia tempora vitae fugiat, nisi deserunt? Repudiandae at modi non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis!
             </p>
