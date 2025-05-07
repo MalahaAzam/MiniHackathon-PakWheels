@@ -5,14 +5,14 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-14 bg-gradient-to-b from-black to-blue-950 text-center px-4 sm:px-8 md:px-16 lg:px-32">
+      <section className=" py-14 bg-gradient-to-b from-black to-blue-950 text-center px-4 sm:px-8 md:px-16 lg:px-32">
         <p className="text-white text-3xl sm:text-4xl">Find Used Cars in Pakistan</p>
         <p className="text-white text-base sm:text-lg mt-2">
           With thousands of cars, we have just the right one for you
         </p>
 
         {/* Search Form */}
-        <form className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-4 pt-6">
+        <form className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-4 pt-6 w-full max-w-screen-md mx-auto">
           <input
             type="text"
             className="p-2 w-full sm:w-60 border border-gray-200"
@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* Featured New Cars */}
-      <section className="py-16  bg-gray-200 px-4 sm:px-8 md:px-16 lg:px-32">
+      <section className="py-16 bg-gray-200 px-4 sm:px-8 md:px-16 lg:px-32 overflow-x-hidden">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <h2 className="font-semibold text-gray-700 text-2xl">Featured New Cars</h2>
           <Link className="text-blue-600 text-base" href="/Routes/NewCars">
