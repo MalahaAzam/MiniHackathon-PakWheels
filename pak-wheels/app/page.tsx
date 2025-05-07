@@ -48,11 +48,11 @@ export default function Home() {
       </section>
 
       {/* Sell Your Car Section */}
-      <section className="mt-16 px-4 sm:px-8 md:px-16 lg:px-32">
+      <section className="  mt-16 px-4 sm:px-8 md:px-16 lg:px-32">
         <p className="text-center font-semibold text-2xl font-sans">
           Sell Your Car on PakWheels and Get the Best Price
         </p>
-        <div className="flex flex-col sm:flex-row justify-between mt-6 gap-6">
+        <div className="flex flex-col justify-center sm:flex-row mt-6 gap-6">
           {/* Post Your Ad */}
           <div className="flex-1 border-gray-200 px-5">
             <p className="text-blue-900 font-semibold">Post your Ad on PakWheels</p>
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
 
           {/* OR separator */}
-          <div className="flex items-center justify-center text-gray-600 font-semibold">OR</div>
+          <div className="flex items-center justify-center text-gray-600 font-semibold mr-20">OR</div>
 
           {/* Sell It For Me */}
           <div className="flex-1 pb-10 border-gray-200 px-5">
